@@ -1,9 +1,16 @@
 <!--pages/1-2_myPot/1-2_myPot.wxml-->
 <view class="content">
-	<view class="header">	
+	<view class="header">
 		<text class="headerText">我的锅子当前温度</text>
 	</view>
-	<view>
-		这里做成温度仪表盘
+	<view class="dashboard">
+		<weapp-plugin-dashboard
+		min="0" 
+		max="100" 
+		val="50" 
+		width="450" 
+		height="210" 
+		colors="{{myColors}}">
+	</weapp-plugin-dashboard>
 	</view>
 </view>

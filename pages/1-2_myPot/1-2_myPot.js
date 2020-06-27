@@ -5,7 +5,37 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-
+		myColors: [{
+			percent: 10,
+			color: '#5A0207'
+		}, {
+			percent: 20,
+			color: '#660000'
+		}, {
+			percent: 30,
+			color: '#cc0001'
+		}, {
+			percent: 40,
+			color: '#fd3302'
+		}, {
+			percent: 50,
+			color: '#f89763'
+		}, {
+			percent: 60,
+			color: '#f5a162'
+		}, {
+			percent: 70,
+			color: '#f1ce73'
+		}, {
+			percent: 80,
+			color: '#eece77'
+		}, {
+			percent: 90,
+			color: '#eece77'
+		}, {
+			percent: 100,
+			color: '#eece77'
+		}]
 	},
 
 	/**

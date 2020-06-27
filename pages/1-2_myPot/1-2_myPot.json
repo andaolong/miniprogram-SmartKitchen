@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "weapp-plugin-dashboard": "weapp-plugin-dashboard"
+}
 }
