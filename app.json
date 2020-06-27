@@ -1,9 +1,7 @@
 {
 	"pages": [
-		"pages/index/index",
-		"pages/logs/logs",
-		"pages/0_loginPage/0_loginPage",
 		"pages/1_myDevice/1_myDevice",
+		"pages/0_loginPage/0_loginPage",
 		"pages/3-1_myInformation/3-1_myInformation",
 		"pages/1-1_myRefrigerator/1-1_myRefrigerator",
 		"pages/1-2_myPot/1-2_myPot",
@@ -11,14 +9,38 @@
 		"pages/2-1_recipeDetail/2-1_recipeDetail",
 		"pages/3_myPage/3_myPage",
 		"pages/3-2_aboutUs/3-2_aboutUs",
-		"pages/3-3_feedbackPage/3-3_feedbackPage"
+		"pages/3-3_feedbackPage/3-3_feedbackPage",
+		"pages/index/index",
+		"pages/logs/logs"
 	],
 	"window": {
 		"backgroundTextStyle": "light",
-		"navigationBarBackgroundColor": "#fff",
-		"navigationBarTitleText": "WeChat",
+		"navigationBarBackgroundColor": "#1296DB",
+		"navigationBarTitleText": "智慧厨房",
 		"navigationBarTextStyle": "black"
 	},
 	"style": "v2",
-	"sitemapLocation": "sitemap.json"
+	"sitemapLocation": "sitemap.json",
+	"tabBar": {
+	  "list": [
+		  {
+		"pagePath": "pages/1_myDevice/1_myDevice",
+		"text": "我的设备",
+		"iconPath": "images/icon_myDevice_unselected.png",
+		"selectedIconPath": "images/icon_myDevice_selected.png"
+	  },
+	  {
+		"pagePath": "pages/2_recipeRecommend/2_recipeRecommend",
+		"text": "菜谱推荐",
+		"iconPath": "images/icon_recipe_unselected.png",
+		"selectedIconPath": "images/icon_recipe_selected1.png"
+	  },
+	  {
+		"pagePath": "pages/3_myPage/3_myPage",
+		"text": "我的",
+		"iconPath": "images/icon_my_unselected.png",
+		"selectedIconPath": "images/icon_my_selected.png"
+	  }
+	]
+	}	
 }

@@ -1,2 +1,14 @@
 <!--pages/1-1_myRefrigerator/1-1_myRefrigerator.wxml-->
-<text>pages/1-1_myRefrigerator/1-1_myRefrigerator.wxml</text>
+<view class="content">
+	<text class="topTitle">冰箱现有食物</text>
+	<view id="foodInRefrigerator">
+		<view wx:for='{{food}}' class="foodShowPanel"> 
+			<!-- {{index}}：{{item.foodName}}:{{item.foodDetail}} -->
+			<text class="foodShowName">{{item.foodName}}</text>
+			<text class="foodShowDetail">{{item.foodDetail}}</text>
+		</view>
+	</view>
+	<button id="createRecipeButton" bindtap="clickGenerateRecommendationMenuButton">
+		生成推荐菜单
+	</button>
+</view>

@@ -1,1 +1,40 @@
 /* pages/1-1_myRefrigerator/1-1_myRefrigerator.wxss */
+.content{
+	margin-top: 20rpx;
+}
+.topTitle{
+	height: 40rpx;
+	width: 750rpx;
+	font-size: medium;
+	margin: 20rpx;
+	font-weight: bolder;
+	text-align: center;
+}
+#foodInRefrigerator{
+	height: auto;
+	width: auto;
+	border: 10rpx solid gray;
+	margin: 20rpx;
+	padding: 80rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-content: space-between;
+	flex-wrap: wrap;
+}
+.foodShowPanel{
+	border: 2rpx solid gray;
+	height: 162rpx;
+	width: 200rpx;
+	margin: 20rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#createRecipeButton{
+	border: 2rpx solid #1296DB;
+	border-radius: 8rpx;
+	margin-top: 40rpx;
+	margin-bottom: 50rpx;
+}

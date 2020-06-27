@@ -5,15 +5,30 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-
+		food:
+		 [
+			{
+				foodName: "foodNameNotYetSet",
+				foodDetailPath: "foodDetailNotYetSet"
+			}
+		]
 	},
+	
 
+	clickToLooKPotTemperature:function(){
+		wx.navigateTo({
+		  url: '../1-2_myPot/1-2_myPot'
+		})
+	},
+	
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
-
+		var foodDetailPathReceived = JSON.parse(options.foodDetailPathTransfer);
+		this.foodDetailPath = foodDetailPathReceived;
 	},
+	
 
 	/**
 	 * 生命周期函数--监听页面初次渲染完成

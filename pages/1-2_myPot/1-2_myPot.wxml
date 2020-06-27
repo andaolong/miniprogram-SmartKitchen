@@ -1,2 +1,9 @@
 <!--pages/1-2_myPot/1-2_myPot.wxml-->
-<text>pages/1-2_myPot/1-2_myPot.wxml</text>
+<view class="content">
+	<view class="header">	
+		<text class="headerText">我的锅子当前温度</text>
+	</view>
+	<view>
+		这里做成温度仪表盘
+	</view>
+</view>

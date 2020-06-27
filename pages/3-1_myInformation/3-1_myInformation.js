@@ -5,7 +5,9 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-
+		myAge:20,
+		myHeight:175,
+		myWeight:60
 	},
 
 	/**

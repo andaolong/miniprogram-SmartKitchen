@@ -1,1 +1,19 @@
 /* pages/2-1_recipeDetail/2-1_recipeDetail.wxss */
+.showFoodDetail{
+	width: 100%;
+	padding-bottom: 120rpx;
+}
+.fixedBottomNavigation{
+	position:fixed;
+	bottom:0; 
+	width:750rpx;
+	height:120rpx;
+	border-top: 2rpx solid grey;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.bottomBtn{
+	background-color: #1296DB;
+}

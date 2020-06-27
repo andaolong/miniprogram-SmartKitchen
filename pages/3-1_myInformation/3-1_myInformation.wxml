@@ -1,2 +1,9 @@
 <!--pages/3-1_myInformation/3-1_myInformation.wxml-->
-<text>pages/3-1_myInformation/3-1_myInformation.wxml</text>
+<view class="content">
+	<text class="title">我的健康数据</text>
+	<view class="myInfoContainer">
+		<text class="myInfo">我的年龄：{{myAge}} 岁</text>
+		<text class="myInfo">我的身高：{{myHeight}} cm</text>
+		<text class="myInfo">我的体重：{{myWeight}} kg</text>
+	</view>
+</view>

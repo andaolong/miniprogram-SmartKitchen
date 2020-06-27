@@ -1,2 +1,13 @@
 <!--pages/3_myPage/3_myPage.wxml-->
-<text>pages/3_myPage/3_myPage.wxml</text>
+<view class="userinfo">
+	<button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+	<block wx:else>
+		<image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+		<text class="userinfo-nickname">{{userInfo.nickName}}</text>
+	</block>
+</view>
+<view class="btnContent">
+	<navigator url='../3-1_myInformation/3-1_myInformation'>我的信息</navigator>
+	<navigator url='../3-3_feedbackPage/3-3_feedbackPage'>反馈不足</navigator>
+	<navigator url='../3-2_aboutUs/3-2_aboutUs'>关于我们</navigator>
+</view>

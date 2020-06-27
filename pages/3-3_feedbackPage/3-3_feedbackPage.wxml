@@ -1,2 +1,6 @@
 <!--pages/3-3_feedbackPage/3-3_feedbackPage.wxml-->
-<text>pages/3-3_feedbackPage/3-3_feedbackPage.wxml</text>
+<view class="content">
+	<!-- <input class="feedbackInput" confirm-type="send" type="text" ></input> -->
+	<textarea class="feedbackTextarea"></textarea>
+	<button class="submitBtn" style="width: 250rpx;">提交反馈</button>
+</view>

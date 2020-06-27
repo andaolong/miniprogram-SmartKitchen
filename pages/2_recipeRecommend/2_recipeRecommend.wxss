@@ -1,1 +1,36 @@
 /* pages/2_recipeRecommend/2_recipeRecommend.wxss */
+.content{
+	width: auto;
+	height: auto;
+	margin: 100rpx;
+}
+.header{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+}
+.headerText{
+	border-bottom: 2rpx solid gray;
+	margin: 20rpx;
+}
+.recommendFood{
+	width: auto;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.foodShowPanel{
+	border: 2rpx solid gray;
+	width: 500rpx;
+	height: 120rpx;
+	display: flex;
+	flex-direction: column;
+	/* 主轴居中 */
+	justify-content: center;
+	/* 行中对齐方式 */
+	align-items: center;
+	border-radius: 10rpx;
+	margin: 60rpx;
+}

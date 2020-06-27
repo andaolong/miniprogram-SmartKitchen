@@ -1,1 +1,41 @@
 /* pages/1_myDevice/1_myDevice.wxss */
+.content{
+	width: auto;
+	height: auto;
+	padding: 80rpx;
+	margin-top: 160rpx;
+	display: flex;
+	justify-content: space-evenly;
+}
+#myRefrigerator{
+	height: 247rpx;
+	width: 200rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#myPot{
+	height: 247rpx;
+	width: 200rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.deviceBtn{
+	background-color: #dfdfdf;
+}
+
+#myRefrigeratorImage{
+	height: 128rpx;
+	width: 128rpx;
+}
+#myPotImage{
+	height: 128rpx;
+	width: 128rpx;
+}
+.buttonText{
+	font-size: small;
+	padding-top: 20rpx;
+}

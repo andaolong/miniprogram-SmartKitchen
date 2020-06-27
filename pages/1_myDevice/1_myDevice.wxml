@@ -1,2 +1,13 @@
 <!--pages/1_myDevice/1_myDevice.wxml-->
-<text>pages/1_myDevice/1_myDevice.wxml</text>
+<!-- 我的设备页面，包含我的冰箱，我的锅子按钮 -->
+
+<view class="content">
+	<button id="myRefrigerator" class="deviceBtn" bindtap="clickMyRefrigeratorButton">
+		<image id="myRefrigeratorImage" src="../../images/image_myRefrigerator2.png"></image>
+		<text class="buttonText">我的冰箱</text>
+	</button>
+	<button id="myPot" class="deviceBtn" bindtap="clickMyPotButton">
+		<image id="myPotImage" src="../../images/imgae_myPot.png"></image>
+		<text class="buttonText">我的锅子</text>
+	</button>
+</view>

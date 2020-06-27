@@ -1,2 +1,18 @@
 <!--pages/3-2_aboutUs/3-2_aboutUs.wxml-->
-<text>pages/3-2_aboutUs/3-2_aboutUs.wxml</text>
+<view class="content">
+	<image class="logo" mode="widthFix" src="../../images/logo_jlu.png"></image>
+	<view class="developerDetail">
+		<view class="developerDetail01">
+			<text class="developerText">开发者团队：</text>
+			<text class="developerText tab">安道龙</text>
+			<text class="developerText tab">林韬</text>
+			<text class="developerText tab">姚梦贤</text>
+		</view>
+		<view class="developerDetail02">
+			<text class="developerText">联系方式：</text>
+			<text class="developerText tab">QQ：1725312729</text>
+			<text class="developerText tab">微信：WXandaolong</text>
+		</view>
+	</view>
+	<view class='page-foot'>© 2020 微信小程序开发课设-JLU</view>
+</view>

@@ -1,2 +1,12 @@
 <!--pages/2_recipeRecommend/2_recipeRecommend.wxml-->
-<text>pages/2_recipeRecommend/2_recipeRecommend.wxml</text>
+<view class="content">
+	<view class="header">	
+		<text class="headerText">根据您的身体状况评估</text>
+		<text class="headerText">推荐您食用：</text>
+	</view>
+	<view class="recommendFood">
+		<view wx:for='{{food}}' class="foodShowPanel"  bindtap="clickToLookFoodDetail">
+			<text class="foodShowName">{{index+1}}.{{item.foodName}}</text>
+		</view>
+	</view>
+</view>

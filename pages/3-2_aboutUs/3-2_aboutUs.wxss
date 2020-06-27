@@ -1,1 +1,39 @@
 /* pages/3-2_aboutUs/3-2_aboutUs.wxss */
+.content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo{
+	width: 200rpx;
+	margin: 80rpx;
+}
+.developerDetail{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.developerDetail01{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15rpx;
+	padding: 15rpx;
+	border: 1rpx solid silver;
+}
+.developerDetail02{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 15rpx;
+	padding: 15rpx;
+	border: 1rpx solid silver;
+}
+.developerText{
+	text-align: left;
+	padding: 10rpx;
+	padding-left: 16rpx;
+	margin: 10rpx;
+	width: 450rpx;
+	border-bottom: 1rpx solid silver;
+}

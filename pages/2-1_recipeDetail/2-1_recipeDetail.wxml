@@ -1,2 +1,12 @@
 <!--pages/2-1_recipeDetail/2-1_recipeDetail.wxml-->
-<text>pages/2-1_recipeDetail/2-1_recipeDetail.wxml</text>
+<view>
+	<image class="showFoodDetail" src="../../images/recipe_mi.jpg" mode="widthFix"></image>
+	<view class="fixedBottomNavigation">
+		<button id="looKPotTemperatureBtn" class="bottomBtn" style="width:240rpx;" bindtap="clickToLooKPotTemperature">
+			查看锅温
+		</button>
+		<button id="projectScreenBtn" class="bottomBtn" style="width:240rpx;" bindtap="clickToProjectScreen">
+			投射屏幕
+		</button>
+    </view>
+</view>
